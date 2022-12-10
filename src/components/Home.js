@@ -21,7 +21,7 @@ const Home = () => {
             <div id="bar3" className="bar"></div>
         </div>
         <div className='design-image'>
-        <img src={"/JSR.png"} alt="img" />
+        <img src={"/JSRS.png"} alt="img" />
         <video playsInline autoPlay loop muted src="/vidTop.mp4"></video>
         </div>
         {toggleBar && <NavBar />}
