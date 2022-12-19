@@ -18,6 +18,11 @@ const NavBarThree = () => {
         </li>
         <li><NavLink
           className='nav-bar-link-three'
+          to="/work">
+          Work</NavLink>
+        </li>
+        <li><NavLink
+          className='nav-bar-link-three'
           to="/services">
           Services</NavLink>
         </li>

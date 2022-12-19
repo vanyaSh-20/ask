@@ -1,9 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import FooterTwo from './FooterTwo'
 import NavBarTwo from './NavBarTwo'
+import { useState } from 'react'
+import DetailsOne from './DetailsOne'
+import DetailsTwo from './DetailsTwo'
+import DetailsThree from './DetailsThree'
+import DetailsFour from './DetailsFour'
 
 const Services = () => {
+    const [show, setShow] = useState(false)
+    const [showTwo, setShowTwo] = useState(false)
+    const [showThree, setShowThree] = useState(false)
+    const [showFour, setShowFour] = useState(false)
+
     return (
         <div>
         <NavBarTwo />
@@ -13,112 +23,69 @@ const Services = () => {
 
             <div className='services-two'>
 
-                <div className='col card'>
-                <div className='front'>
-                    <h5>BRAND STRATEGY AND IDENTITY</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>By defining your brand's identity and tone of voice to appeal to your target audience,
-                        ASK's comprehensive approach will help you develop a substantial and differentiating presence.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
-                </div>
-
-                <div className='col card'>
-                <div className='front'>
-                    <h5>CREATIVE SERVICES</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>Our audacious skills give messages life by offering creative strategies, marketing efforts,
-                        and all-encompassing solutions to assist brands.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
+                <div className='card'>
+                  <h1>Pre-Production</h1>
+                    <div className='content'>
+                        <h3>Story and Scriptwriting</h3>
+                        <p>Do you have a story idea but don't know how to show it on screen? 
+                        Don't worry, we have your back. We are storytellers who know what makes people 
+                        laugh, cry, or jump out of their seats with excitement.</p>
+                        <br />
+                        <button className='detail_btn' onClick={()=> {setShow(!show)}}>Details ⮟</button> <br /><br />
+                        {
+                            show ?
+                            <DetailsOne />
+                            :null
+                        }
+                    </div>
                 </div>
 
-                <div className='col card'>
-                <div className='front'>
-                    <h5>ADVERTISING SOLUTIONS</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>We offer our clients comprehensive solutions to increase the reach of business,
-                        whether it be through strategy, creative, or production services.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
-                </div>
-
-                <div className='col card'>
-                <div className='front'>
-                    <h5>NAMING AND POSITIONING</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>We can help you create a compelling, well-thought-out positioning statement that ties
-                        together your overall value proposition and your positioning for a product.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div> 
+                <div className='card'>
+                  <h1>Production</h1>
+                    <div className='content'>
+                        <h3>Filming</h3>
+                        <p>We specialize in producing and directing award-winning films. We create outstanding 
+                        videos that tell tales in the most powerful way possible!</p>
+                        <br />
+                        <button className='detail_btn' onClick={()=> {setShowTwo(!showTwo)}}>Details ⮟</button> <br /><br />
+                        {
+                            showTwo ?
+                            <DetailsTwo />
+                            :null
+                        }
+                    </div>
                 </div>
 
-                <div className='col card'>
-                <div className='front'>
-                    <h5>COLATERAL DESIGN AND PRINT PRODUCTION</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>From collateral design through print manufacturing, we pay close attention to the little things
-                        while highlighting the importance of collaterals for brand image development.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
-                </div>
-
-                <div className='col card'>
-                <div className='front'>
-                    <h5>INTERACTIVE AND MOBILE APP DESIGN AND PROGRAMMING</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>With our business partners, we create Mobile Apps for regulatory requirements.
-                        Your company can reach more people on any mobile device.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
+                <div className='card'>
+                  <h1>Post-Production</h1>
+                    <div className='content'>
+                        <h3>Editing</h3>
+                        <p>Our editing team will make your project seamless and impeccable. Using our professional tools and 
+                        software, we make sure that your project is perfectly edited.</p>
+                        <br />
+                        <button className='detail_btn' onClick={()=> {setShowThree(!showThree)}}>Details ⮟</button> <br /><br />
+                        {
+                            showThree ?
+                            <DetailsThree />
+                            :null
+                        }
+                    </div>
                 </div>
 
-                <div className='col card'>
-                <div className='front'>
-                    <h5>WEBSITE SOLUTIONS</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>In collaboration with our business partners, we offer newly created websites, online portals,
-                        feature-rich web apps, and continuing maintenance, monitoring, and support.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
-                </div>
-
-                <div className='col card'>
-                <div className='front'>
-                    <h5>CONTENT MANAGEMENT</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>We regularly collaborate with our clients to ensure that material is
-                        current and driving consumer interaction.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
-                </div>
-
-                <div className='col card'>
-                <div className='front'>
-                    <h5>MARKETING STRATEGY</h5>
-                    <hr />
-                </div>
-                <div className='back'>
-                    <p>Are you unsure how to jumpstart your strategy? We provide you with an achievable and
-                        focused plan for marketing goals.</p>
-                    <Link className='col-link' to="/">Learn more</Link>
-                </div>
+                <div className='card'>
+                  <h1>Audio-Production</h1>
+                    <div className='content'>
+                        <h3>Music Production</h3>
+                        <p>We can help you compose your music and lyrics with our team of efficient composers and songwriters 
+                        with years of industry experience.</p>
+                        <br />
+                        <button className='detail_btn' onClick={()=> {setShowFour(!showFour)}}>Details ⮟</button> <br /><br />
+                        {
+                            showFour ?
+                            <DetailsFour />
+                            :null
+                        }
+                    </div>
                 </div>
 
             </div>
