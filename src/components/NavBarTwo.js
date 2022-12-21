@@ -14,7 +14,7 @@ const NavBarTwo = () => {
         <li><NavLink
           className='nav-bar-link-two'
           to="/about">
-          About Ask</NavLink>
+          About Us</NavLink>
         </li>
         <li><NavLink
           className='nav-bar-link-two'

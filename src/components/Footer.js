@@ -11,7 +11,7 @@ const Footer = () => {
         <li><a className='footer-link' href="https://www.linkedin.com" target='_blank'><BsLinkedin /> Linkedin </a></li>
       </ul>
       <div className='privacy'>
-        <p>Privacy & Terms © 2022 ASK Advertising</p>
+        <p>Privacy & Terms © 2022 JSR Production</p>
       </div>
     </div>
   )

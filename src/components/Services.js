@@ -18,7 +18,7 @@ const Services = () => {
         <div>
         <NavBarTwo />
             <div className='services-one'>
-                <h1>Ours work flash here ↓</h1>
+                <h1>Services provided by us here ↓</h1>
             </div>
 
             <div className='services-two'>

@@ -46,6 +46,7 @@ const About = () => {
       </ul>
       </p> 
       </div>
+    <div className='about-three-two'>
       <p>
       JSR Production House is a full-service production company specialising in corporate event coverage, 
       live-stream events, promotional videos, music videos and more. We are committed to providing an excellent
@@ -68,7 +69,7 @@ const About = () => {
       to the completion of the project, including the concept, scripting, scheduling, casting, etc. If necessary, 
       we also involve the budgeting process to help our client control the production budget and make the event more cost-efficient.
      </p>
-
+    </div>
     </div>
     </div>
     <FooterTwo />

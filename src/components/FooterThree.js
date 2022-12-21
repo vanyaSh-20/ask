@@ -23,6 +23,12 @@ const FooterThree = () => {
         </li>
         <li><NavLink
           className='nav-bar-link-four'
+          to="/work">
+          |
+          Work</NavLink>
+        </li>
+        <li><NavLink
+          className='nav-bar-link-four'
           to="/services">
           |
           Services</NavLink>
@@ -34,14 +40,12 @@ const FooterThree = () => {
           Contact</NavLink>
         </li>
       </ul>
-      <p>Ask Advertising © 2022</p>
+      <p>JSR Production © 2022</p>
       </div>
       <div className='footer-three-two'>
-         <p><TiLocation/>GARHOUD VIES BUILDING 7th Floor, #712-Al Uruba Buisness Center Garhoud, Dubai-UAE</p>
-         <p><MdCall /> 04 294 8572</p>
-         <p><MdEmail /> md@askadvertisingandmarketing.com <br />
-                        azmi@askadvertisingandmarketing.com <br />
-                        info@askadvertisingandmarketing.com</p>
+         <p><TiLocation/>Shaheed Gireesh Bhadri, Mothrowala, Chowk, Banjarawala Rd, Ajabpur Khurd, Dehradun, Uttarakhand 248001</p>
+         <p><MdCall /> 07830399111</p>
+         <p><MdEmail /> info@jsrproductionhouse.com</p>
       </div>
       <div className='footer-three-three'>
       <h5>About the company</h5>
@@ -57,7 +61,7 @@ const FooterThree = () => {
       </div>
     </div>
     <div className='privacy-con'>
-        <p>Privacy & Terms © 2022 ASK Advertising</p>
+        <p>Privacy & Terms © 2022 JSR Production</p>
       </div>
     </div>
   )

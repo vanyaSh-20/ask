@@ -14,7 +14,7 @@ const NavBarThree = () => {
         <li><NavLink
           className='nav-bar-link-three'
           to="/about">
-          About Ask</NavLink>
+          About Us</NavLink>
         </li>
         <li><NavLink
           className='nav-bar-link-three'

@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
-  const navs= ["nav1", "nav2", "nav3", "nav4"];
 
   return (
     <div>
@@ -16,7 +15,7 @@ const NavBar = () => {
         <li><NavLink
           className='nav-bar-link'
           to="/about">
-          About Ask</NavLink>
+          About Us</NavLink>
         </li>
         <li><NavLink
           className='nav-bar-link'
@@ -34,12 +33,6 @@ const NavBar = () => {
           Contact</NavLink>
         </li>
       </ul>
-      <div className='navPic'>
-          {
-            navs.map((val,index)=>
-            <img key={index} src={`/${val}.jpg`} alt="img" />)
-          }
-      </div>
       </div>
     </div>
   )

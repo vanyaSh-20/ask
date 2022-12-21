@@ -178,6 +178,7 @@
 /* home navbar */
 .nav-container {
   padding-bottom: 250px;
+  height: 750px;
   background-color: #1a1e23;
   position: fixed;
   right: 0;
@@ -186,7 +187,7 @@
 }
 
 .navbar {
-  padding-top: 100px;
+  padding-top: 250px;
   width: 100%;
 }
 
@@ -205,7 +206,7 @@
 
 .navbar li {
   display: inline-block;
-  padding: 70px;
+  padding: 60px;
   font-size: 25px;
   font-weight: bold;
 }
@@ -232,53 +233,17 @@
 }
 
 .nav-bar-link {
-  padding: 5px;
+  padding: 15px;
   text-decoration: none;
   color: #fff;
+  font-size: 40px;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
 
 .nav-bar-link:hover {
   color: #fff;
-  background-color: #974d70;
-}
-
-.navPic img{
-  margin-top: 50px;
-  display: inline-block;
-  margin: 20px;
-}
-
-@media (max-width: 1090px) {
-  .navPic img {
-    height: 200px;
-    width: 200px;
-  }
-}
-
-@media (min-width: 730px) and (max-width: 1089px) {
-  .navPic img {
-    height: 140px;
-    width: 140px;
-  }
-}
-
-@media (min-width: 489px) and (max-width: 729px) {
-   .navPic img {
-      height: 100px;
-      width: 100px;
-      margin: 10px;
-   }
-}
-
-@media (min-width: 300px) and (max-width: 488px) {
-  .navPic img {
-    height: 80px;
-    width: 80px;
-    margin-left: 145px;
-    display: block;
-  } 
+  background-color: #24675a;
 }
 
 /* home part-one */
@@ -694,10 +659,10 @@
 }
 
 .h-four h1 {
-  padding-top: 15px;
-  font-size: 35px;
+  padding-top: 20px;
+  font-size: 55px;
   font-family: 'Raleway', sans-serif;
-  color: #0c0d0f;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -705,13 +670,14 @@
   background-color: #000;
   width: 500px;
   margin-left: 505px;
+  margin-bottom: 35px;
   border-color: #000;
 }
 
 .testimonials{
   display: flex;
   padding: 10px 0;
-  height: 320px;
+  height: 500px;
   overflow: auto;
   /* white-space: nowrap; */
   background-color: #24675a;
@@ -719,21 +685,23 @@
 
 .testimonial {
   box-shadow: 8px 8px #38363688;
-  height: 250px;
+  height: 400px;
   background-color: #000;
   border: solid 2px #313233;
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
+  margin-left: 50px;
 }
 
 .testimonial>p {
   padding-top: 5px;
-  font-size: 23px;
+  line-height: 3.5pc;
+  font-size: 40px;
   font-weight: lighter;
   text-align: start;
   color: #ffffff;
-  width: 600px;
+  width: 1100px;
   letter-spacing: 0.5px;
   font-family: 'Raleway', sans-serif;
 }
@@ -931,7 +899,7 @@
 }
 
 .about-two p {
-  text-align: start;
+  text-align: center;
   letter-spacing: 2px;
   font-size: 25px;
   font-weight: lighter;
@@ -976,9 +944,13 @@
   margin-bottom: 55px;
 }
 
+.about-three-two p{
+  text-align: center;
+}
+
 /* footer-about and services */
 .footer-two {
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 30px;
   padding-left: 12px;
   background-color: black;
@@ -1037,10 +1009,10 @@
 
 .card {
   color: #fff;
-  border: solid 1px #974d70;
-  box-shadow: 1px 1px 5px 5px #b46a8c;
+  border: solid 1px #24675a;
+  box-shadow: 1px 1px 5px 5px #24675a;
   font-family: 'Raleway', sans-serif;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   width: 1100px;
   margin: 25px 30px;
   padding: 55px;
@@ -1050,7 +1022,7 @@
   padding-bottom: 35px;
   font-weight: lighter;
   font-size: 60px;
-  color: #b298a4;
+  color: #4a746a;
 }
 
 .content {
@@ -1165,7 +1137,7 @@
 
 /* contact navbar */
 .navbar-three {
-  background-color: #974d70;
+  background-color: #24675a;
   text-align: start;
 }
 
@@ -1197,7 +1169,7 @@
 /* contact footer */
 .footer-three {
   display: flex;
-  background-color: #974d70;
+  background-color: #24675a;
   height: 300px;
 }
 
@@ -1305,8 +1277,158 @@
 }
 
 .privacy-con {
-  background-color: #974d70;
+  background-color: #24675a;
   padding: 18px 0;
+  color: #fff;
+}
+
+/* work-section */
+.work {
+  padding-top: 120px;
+  background-color: #000;
+}
+
+.work-one {
+  background-color: black;
+  color: #fff;
+  height: 622px;
+}
+
+.work-one h1 {
+  padding-top: 225px;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+.work-head {
+  padding: 50px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 100px;
+}
+
+.work-head p {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.work-two {
+  padding-left: 300px;
+}
+
+.seven-two-hours {
+  border: solid 1px #6b6a6a;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  width: 900px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.seven-two-hours h1{
+  font-size: 40px;
+  color: #bcbcbcbc;
+} 
+
+.seven-two-hours p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.mai-shiv-hun {
+  border: solid 1px #6b6a6a;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  width: 900px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.mai-shiv-hun h1{
+  font-size: 40px;
+  color: #bcbcbcbc;
+} 
+
+.mai-shiv-hun p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.tu-na-sahi {
+  border: solid 1px #6b6a6a;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  width: 900px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.tu-na-sahi h1{
+  font-size: 40px;
+  color: #bcbcbcbc;
+} 
+
+.tu-na-sahi p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.bairi-piya {
+  border: solid 1px #6b6a6a;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  width: 900px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.bairi-piya h1{
+  font-size: 40px;
+  color: #bcbcbcbc;
+} 
+
+.bairi-piya p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.rukhsat {
+  border: solid 1px #6b6a6a;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  width: 900px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.rukhsat h1{
+  font-size: 40px;
+  color: #bcbcbcbc;
+} 
+
+.rukhsat p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.baby-bas-kar {
+  border: solid 1px #6b6a6a;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  width: 900px;
+  padding: 40px;
+}
+
+.baby-bas-kar h1{
+  font-size: 40px;
+  color: #bcbcbcbc;
+} 
+
+.baby-bas-kar p {
+  font-size: 20px;
   color: #fff;
 }
 

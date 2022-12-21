@@ -14,7 +14,7 @@ const Home = () => {
     const onToggle =()=>{setToggleBar(!toggleBar)}
 
     return (
-        <div>
+        <div> 
         <div id="menu" onClick={onToggle}>
             <div id="bar1" className="bar"></div>
             <div id="bar2" className="bar"></div>
@@ -50,7 +50,7 @@ const Home = () => {
             <div className='para'>
                 <p>To tackle the ever-increasing competition in the marketplace, at ASK, 
                 we are continually looking for new and more effective ways to increase your brand's market influence.</p>
-                <Link className='para-link' to="/About">Discover our work</Link>
+                <Link className='para-link' to="/work">Discover our work</Link>
         </div>
         </div>
         <div className='h-three'><p>Clientele</p></div>
@@ -71,7 +71,7 @@ const Home = () => {
         <div className='h-four'>
         <h1>Testimonials</h1>
         <hr />
-        <div className='testimonials'>
+        <div className='testimonials' >
             <div className='testimonial'>
                 <p>Working with the production was amazing. They were flexible and accommodating and helped us pick out 
                 some great locations and vendors. They made sure that we were happy with everything before we went live, 
