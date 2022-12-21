@@ -49,13 +49,13 @@ const FooterThree = () => {
       </div>
       <div className='footer-three-three'>
       <h5>About the company</h5>
-      <p>ASK believes in creating a long-term relationship with its consumers to ensure seamless message delivery 
-      so that it becomes a thought-provoking experience engendering action. Our organization focuses on three 
-      primary genre types, active in the hospitality, tourist, and municipal government industries.</p>
+      <p>We are a well-established production house located amidst the magnificent hills of Uttarakhand. With a vision to create an 
+      everlasting impact through our full-service production house. Under the able guidance of Mr Jaswant Rawat, Chairman- JSR Group, 
+      we have thrived in a short period and have successfully emerged as one of the best production houses in India.</p>
       <ul className='footer-bar'>
-        <li><a className='footer-link-bar' href="https://twitter.com/i/flow/login" target='_blank'><BsTwitter /></a></li> 
-        <li><a className='footer-link-bar' href="https://www.facebook.com/" target='_blank'><BsFacebook /></a></li> 
-        <li><a className='footer-link-bar' href="https://www.instagram.com/" target='_blank'><BsInstagram /></a> </li>
+        <li><a className='footer-link-bar' href="https://twitter.com/house_jsr" target='_blank'><BsTwitter /></a></li> 
+        <li><a className='footer-link-bar' href="https://www.facebook.com/JSRProductionhouse/" target='_blank'><BsFacebook /></a></li> 
+        <li><a className='footer-link-bar' href="https://www.instagram.com/jsrproductionhouse/?hl=en" target='_blank'><BsInstagram /></a> </li>
         <li><a className='footer-link-bar' href="https://www.linkedin.com" target='_blank'><BsLinkedin /></a></li>
       </ul>
       </div>
