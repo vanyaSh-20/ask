@@ -202,6 +202,15 @@
   }
 }
 
+@media (min-width: 300px) and (max-width: 488px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar-container {
+    text-align: center;
+  }
+}
+
 .navbar li {
   display: block;
   padding: 30px;
@@ -225,8 +234,7 @@
 @media (min-width: 300px) and (max-width: 488px) {
   .navbar li {
     font-size: 18px;
-    padding: 12px;
-    display: block;
+    padding: 35px;
   }
 }
 
@@ -241,6 +249,13 @@
 
 .nav-bar-link:hover {
   color: #fff;
+}
+
+@media (min-width: 300px) and (max-width: 488px) {
+  .nav-bar-link {
+    font-size: 30px;
+    padding: 20px;
+  }
 }
 
 /* home part-one */
