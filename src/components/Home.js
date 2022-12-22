@@ -93,7 +93,6 @@ const Home = () => {
                 They were very easy to work with and made sure that everything was perfect. I would highly recommend them 
                 to anyone looking for work with perfection!</p>
             </div>
-            
         </div>
         </div>
         <div className='video'>

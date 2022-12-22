@@ -43,7 +43,7 @@ const FooterThree = () => {
       <p>JSR Production © 2022</p>
       </div>
       <div className='footer-three-two'>
-         <p><TiLocation/>Shaheed Gireesh Bhadri, Mothrowala, Chowk, Banjarawala Rd, Ajabpur Khurd, Dehradun, Uttarakhand 248001</p>
+         <p><TiLocation/> Shaheed Gireesh Bhadri, Mothrowala, Chowk, Banjarawala Rd, Ajabpur Khurd, Dehradun, Uttarakhand 248001</p>
          <p><MdCall /> 07830399111</p>
          <p><MdEmail /> info@jsrproductionhouse.com</p>
       </div>
@@ -53,10 +53,10 @@ const FooterThree = () => {
       everlasting impact through our full-service production house. Under the able guidance of Mr Jaswant Rawat, Chairman- JSR Group, 
       we have thrived in a short period and have successfully emerged as one of the best production houses in India.</p>
       <ul className='footer-bar'>
-        <li><a className='footer-link-bar' href="https://twitter.com/house_jsr" target='_blank'><BsTwitter /></a></li> 
-        <li><a className='footer-link-bar' href="https://www.facebook.com/JSRProductionhouse/" target='_blank'><BsFacebook /></a></li> 
-        <li><a className='footer-link-bar' href="https://www.instagram.com/jsrproductionhouse/?hl=en" target='_blank'><BsInstagram /></a> </li>
-        <li><a className='footer-link-bar' href="https://www.linkedin.com" target='_blank'><BsLinkedin /></a></li>
+        <li><a className='footer-link-bar' href="https://twitter.com/house_jsr" target='_blank' rel="noreferrer"><BsTwitter /></a></li> 
+        <li><a className='footer-link-bar' href="https://www.facebook.com/JSRProductionhouse/" target='_blank' rel="noreferrer"><BsFacebook /></a></li> 
+        <li><a className='footer-link-bar' href="https://www.instagram.com/jsrproductionhouse/?hl=en" target='_blank' rel="noreferrer"><BsInstagram /></a> </li>
+        <li><a className='footer-link-bar' href="https://www.linkedin.com" target='_blank' rel="noreferrer"><BsLinkedin /></a></li>
       </ul>
       </div>
     </div>
