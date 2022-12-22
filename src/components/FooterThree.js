@@ -19,7 +19,7 @@ const FooterThree = () => {
           className='nav-bar-link-four'
           to="/about">
           |
-          About Ask</NavLink>
+          About Us</NavLink>
         </li>
         <li><NavLink
           className='nav-bar-link-four'
