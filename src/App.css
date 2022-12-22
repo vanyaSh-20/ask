@@ -710,19 +710,19 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .h-four h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .h-four hr {
-    width: 230px;
+    width: 200px;
     margin-left: 80px;
     margin-bottom: 10px;
   }
   .testimonials {
-    height: 300px;
+    height: 270px;
   }
   .testimonial {
     height: 200px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .testimonial>p {
     width: 300px;
@@ -1427,7 +1427,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .work-two {
-    padding-left: 30px;
+    padding-left: 40px;
   }
   .seven-two-hours {
     padding: 15px;
