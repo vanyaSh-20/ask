@@ -142,7 +142,7 @@
 .bar {
   height: 5px;
   width: 100%;
-  background-color: #958b8f;
+  background-color: #757272;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -185,8 +185,8 @@
 }
 
 .navbar {
-  padding-top: 250px;
-  width: 100%;
+  padding-top: 100px;
+  width: 30%;
 }
 
 @media (min-width: 600px) and (max-width: 820px) {
@@ -203,9 +203,9 @@
 }
 
 .navbar li {
-  display: inline-block;
-  padding: 60px;
-  font-size: 25px;
+  display: block;
+  padding: 30px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -233,7 +233,7 @@
 .nav-bar-link {
   padding: 15px;
   text-decoration: none;
-  color: #fff;
+  color: #757272;
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
@@ -241,7 +241,6 @@
 
 .nav-bar-link:hover {
   color: #fff;
-  background-color: #24675a;
 }
 
 /* home part-one */
@@ -658,24 +657,25 @@
 
 .h-four h1 {
   padding-top: 20px;
-  font-size: 55px;
+  font-size: 35px;
+  font-weight: lighter;
   font-family: 'Raleway', sans-serif;
-  color: #000;
+  color: #fff;
   margin-bottom: 20px;
 }
 
 .h-four hr {
-  background-color: #000;
-  width: 500px;
-  margin-left: 505px;
+  background-color: #fff;
+  width: 450px;
+  margin-left: 530px;
   margin-bottom: 35px;
-  border-color: #000;
+  border-color: #fff;
 }
 
 .testimonials{
   display: flex;
   padding: 10px 0;
-  height: 500px;
+  height: 400px;
   overflow: auto;
   /* white-space: nowrap; */
   background-color: #24675a;
@@ -683,7 +683,7 @@
 
 .testimonial {
   box-shadow: 8px 8px #38363688;
-  height: 400px;
+  height: 300px;
   background-color: #000;
   border: solid 2px #313233;
   border-radius: 5px;
@@ -695,7 +695,7 @@
 .testimonial>p {
   padding-top: 5px;
   line-height: 3.5pc;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: lighter;
   text-align: start;
   color: #ffffff;
@@ -861,6 +861,12 @@
   color: rgb(104, 108, 110);
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-bar-link-two {
+    font-size: 20px;
+  }
+}
+
 /* about part-one */
 .about-one {
   background-color: black;
@@ -906,6 +912,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .about-two img {
     width: 290px;
+    margin-bottom: 20px;
   }
   .about-two {
     padding: 40px;
@@ -934,6 +941,7 @@
   }
   .about-two p {
     font-size: 20px;
+    line-height: 1.8pc;
   }
 }
 
@@ -1015,7 +1023,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .services-one h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -1075,6 +1083,28 @@
 
 .detail_btn:hover {
   color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    width: 300px;
+    padding: 15px;
+  }
+  .card h1 {
+    font-size: 30px;
+  }
+  .content {
+    padding: 10px;
+  }
+  .content h3 {
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 15px;
+  }
+  .detail_btn {
+    font-size: 10px;
+  }
 }
 
 /* card templates */
@@ -1182,6 +1212,12 @@
   font-weight: lighter;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-bar-link-three {
+    font-size: 15px;
+  }
+}
+
 /* map */
 .map {
   height: 300px;
@@ -1255,6 +1291,12 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer-three-one {
+    margin-left: 5px;
+  }
+}
+
 /* nav in contact footer */
 .navbar-four {
   text-align: start;
@@ -1324,6 +1366,15 @@
   font-size: 40px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .work-one {
+    height: 500px;
+  }
+  .work-one h1 {
+    font-size: 25px;
+  }
+}
+
 .work-head {
   padding: 50px;
   font-family: 'Raleway', sans-serif;
@@ -1335,6 +1386,16 @@
   letter-spacing: 2px;
   line-height: 1.5;
   color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .work-head {
+    padding: 20px;
+  }
+  .work-head p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
 }
 
 .work-two {
@@ -1360,6 +1421,30 @@
   color: #fff;
 }
 
+.seven-two-hours img {
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .work-two {
+    padding-left: 30px;
+  }
+  .seven-two-hours {
+    padding: 15px;
+    width: 300px;
+  }
+  .seven-two-hours img {
+    width: 200px;
+    height: 220px;
+  }
+  .seven-two-hours h1 {
+    font-size: 20px;
+  }
+  .seven-two-hours p {
+    font-size: 10px;
+  }
+}
+
 .mai-shiv-hun {
   border: solid 1px #6b6a6a;
   border-radius: 5px;
@@ -1377,6 +1462,23 @@
 .mai-shiv-hun p {
   font-size: 20px;
   color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .mai-shiv-hun {
+    padding: 15px;
+    width: 300px;
+  }
+  .mai-shiv-hun img {
+    width: 200px;
+    height: 220px;
+  }
+  .mai-shiv-hun h1 {
+    font-size: 20px;
+  }
+  .mai-shiv-hun p {
+    font-size: 10px;
+  }
 }
 
 .tu-na-sahi {
@@ -1398,6 +1500,23 @@
   color: #fff;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .tu-na-sahi {
+    padding: 15px;
+    width: 300px;
+  }
+  .tu-na-sahi img {
+    width: 200px;
+    height: 220px;
+  }
+  .tu-na-sahi h1 {
+    font-size: 20px;
+  }
+  .tu-na-sahi p {
+    font-size: 10px;
+  }
+}
+
 .bairi-piya {
   border: solid 1px #6b6a6a;
   border-radius: 5px;
@@ -1415,6 +1534,23 @@
 .bairi-piya p {
   font-size: 20px;
   color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .bairi-piya {
+    padding: 15px;
+    width: 300px;
+  }
+  .bairi-piya img {
+    width: 200px;
+    height: 220px;
+  }
+  .bairi-piya h1 {
+    font-size: 20px;
+  }
+  .bairi-piya p {
+    font-size: 10px;
+  }
 }
 
 .rukhsat {
@@ -1436,6 +1572,23 @@
   color: #fff;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .rukhsat {
+    padding: 15px;
+    width: 300px;
+  }
+  .rukhsat img {
+    width: 200px;
+    height: 220px;
+  }
+  .rukhsat h1 {
+    font-size: 20px;
+  }
+  .rukhsat p {
+    font-size: 10px;
+  }
+}
+
 .baby-bas-kar {
   border: solid 1px #6b6a6a;
   border-radius: 5px;
@@ -1452,6 +1605,23 @@
 .baby-bas-kar p {
   font-size: 20px;
   color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .baby-bas-kar {
+    padding: 15px;
+    width: 300px;
+  }
+  .baby-bas-kar img {
+    width: 200px;
+    height: 220px;
+  }
+  .baby-bas-kar h1 {
+    font-size: 20px;
+  }
+  .baby-bas-kar p {
+    font-size: 10px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
