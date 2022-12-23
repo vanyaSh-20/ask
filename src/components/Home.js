@@ -6,7 +6,7 @@ import Button from './Button'
 
 const Home = () => {
     const imgs=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-    const grid= ["grid1","grid2","grid3","grid4","grid5","grid6","grid7","grid8","grid9"];
+    const grid= ["72_Hours","Mai_Shiv_Hu","Tu_Na_Sahi","Bairi_Piya","Rukhsat","Baby_Bas_Kar"];
     const [imgsShowMore,setImgsShowMore]=useState(false);
     const onAdd =()=>{setImgsShowMore(!imgsShowMore)};
     
@@ -42,7 +42,7 @@ const Home = () => {
         <div className='grids'>
         {
                 grid.map((val,index)=>
-                <img key={index} src={`/${val}.jpg`} alt="img" />
+                <img key={index} src={`/${val}.png`} alt="img" />
                 )
             }
         </div>
@@ -69,6 +69,7 @@ const Home = () => {
             <Button text={imgsShowMore ? 'Show less' : 'Show more'} onClick={onAdd} />
         </div>
         <div className='h-four'>
+        <div></div>
         <h1>Testimonials</h1>
         <hr />
         <div className='testimonials' >
@@ -94,9 +95,10 @@ const Home = () => {
                 to anyone looking for work with perfection!</p>
             </div>
         </div>
+        {/* <img src={"/3.png"} alt="img" /> */}
         </div>
         <div className='video'>
-            <video width="100%" playsInline autoPlay loop muted src="/vid.mp4"></video>
+            <video width="100%" playsInline autoPlay loop muted src="/shape_motion.mp4"></video>
         </div>
         <Footer />
         </div>

@@ -6,6 +6,7 @@ const NavBar = () => {
   return (
     <div>
       <div className='nav-container'>
+      <div className='testi'>
       <ul className='navbar'>
         <li><NavLink
           className='nav-bar-link'
@@ -33,6 +34,8 @@ const NavBar = () => {
           Contact</NavLink>
         </li>
       </ul>
+      <div className='bg-image'><img src={"/Navi_Bg.png"} alt="img" /></div>
+      </div>
       </div>
     </div>
   )
