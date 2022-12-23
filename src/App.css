@@ -582,6 +582,12 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .para p {
+    margin-bottom: 25px;
+  }
+}
+
 .para-link {
   text-decoration: none;
   border: solid 1px rgb(63, 61, 61);
@@ -626,39 +632,49 @@
 }
 
 /* image-studio */
-.studio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 15%;
-  background-color: #fff;
+.carousel {
+  background-color: #000;
+  padding: 50px;
+  object-fit: cover;
   position: relative;
   top: 1500px;
   margin-bottom: -50px;
 }
 
-@media (min-width: 600px) and (max-width: 820px) {
-  .studio {
-    top: 1000px;
-  }
-}
-
-@media (min-width: 541px) and (max-width: 599px) {
-  .studio {
-    top: 1000px;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 540px) {
-  .studio {
-    top: 1000px;
-  }
-}
-
-.studio img {
-  width: 30vw;
+.vertical {
+  width: 20vw !important; 
   height: 30vw;
 }
+
+.horizontal {
+  width: 20vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+
+.vertical img {
+  border-radius: 10px;
+  width: 20vw;
+  height: 30vw;
+}
+
+.horizontal img {
+  border-radius: 10px;
+  width: 20vw;
+  height: 15vw;
+}
+
+.slick-track{
+  display: flex;
+  flex-direction: row;
+}
+
+/* .studio img {
+  width: 20vw;
+  height: 20vw;
+} */
 
 /* show-more/less btn */
 .show-btn {
@@ -686,7 +702,7 @@
   position: relative;
   top: 1550px;
   z-index: 20;
-  background-image: url('/public/4.png');
+  background-image: url('/public/testi.png');
 }
 
 .h-four h1 {
@@ -714,7 +730,7 @@
 .testimonials{
   display: flex;
   padding: 10px 0;
-  height: 400px;
+  height: 350px;
   overflow: auto;
   /* white-space: nowrap; */
   /* background-image: url('/public/3.png'); */
@@ -722,7 +738,7 @@
 
 .testimonial {
   box-shadow: 8px 8px #38363688;
-  height: 300px;
+  height: 250px;
   background-color: #000;
   border: solid 2px #313233;
   border-radius: 5px;
@@ -733,14 +749,13 @@
 }
 
 .testimonial>p {
-  padding-top: 5px;
-  line-height: 3.5pc;
-  font-size: 30px;
+  padding-top: 35px;
+  font-size: 26px;
   font-weight: lighter;
   text-align: start;
   color: #ffffff;
-  width: 1250px;
-  letter-spacing: 0.5px;
+  width: 1000px;
+  letter-spacing: 2px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -1702,3 +1717,10 @@
     transform: rotate(360deg);
   }
 }
+
+/* .h33{
+  font-size: 30px;
+  width:100%;
+  aspect-ratio: 1/1;
+  background: red;
+} */

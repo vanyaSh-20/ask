@@ -10,7 +10,7 @@ const About = () => {
       <h1>Ours is a simple story ↓</h1>
     </div>
     <div className='about-two'>
-     <img src="/banner.jpg" alt="" />
+     <img src="/about.png" alt="" />
       <h2>ABOUT US</h2>
       <p>We are a well-established production house located amidst the magnificent hills of Uttarakhand. 
       With a vision to create an everlasting impact through our full-service production house. 
