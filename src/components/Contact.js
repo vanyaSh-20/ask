@@ -15,7 +15,7 @@ const Contact = () => {
                 loading="lazy"
                 referrerPolicy={"no-referrer-when-downgrade" }
                 /> */}
-                <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.351185324611!2d78.03660211512079!3d30.284062481795758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092904359ef497%3A0xdbfac6e5851578c1!2sJSR%20Production%20House!5e0!3m2!1sen!2sin!4v1671614416827!5m2!1sen!2sin" 
+                <iframe title='map' className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.351185324611!2d78.03660211512079!3d30.284062481795758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092904359ef497%3A0xdbfac6e5851578c1!2sJSR%20Production%20House!5e0!3m2!1sen!2sin!4v1671614416827!5m2!1sen!2sin" 
                  style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         <FooterThree />
         </div>
