@@ -43,7 +43,15 @@ const Home = () => {
     speed: 4000,
     autoplaySpeed: 0,
     pauseOnHover: true,
-    cssEase: "linear"
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3.8,
+        }
+      },
+    ]
   };
 
 
