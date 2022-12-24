@@ -65,11 +65,13 @@ const Home = () => {
 
   return (
     <div>
+    <div className="menu-bar">
       <div id="menu" onClick={onToggle}>
         <div id="bar1" className="bar"></div>
         <div id="bar2" className="bar"></div>
         <div id="bar3" className="bar"></div>
       </div>
+    </div>
       <div className="design-image">
         <img src={"/JSRS.png"} alt="img" />
         <video playsInline autoPlay loop muted src="/jsr_ad.mp4"></video>
