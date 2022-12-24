@@ -444,6 +444,12 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .grids {
+    height: 280px;
+  }
+}
+
 .grids img {
   width: 22vw;
   height: 22vw;
