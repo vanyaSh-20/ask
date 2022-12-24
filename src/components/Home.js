@@ -48,7 +48,7 @@ const Home = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3.8,
+          slidesToShow: 1,
         }
       },
     ]
@@ -111,6 +111,9 @@ const Home = () => {
             Discover our work
           </Link>
         </div>
+      </div>
+      <div className="h-three">
+        <h1>Our Artists</h1>
       </div>
       <div className="carousel">
         <Slider {...settings}>

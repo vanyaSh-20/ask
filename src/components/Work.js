@@ -10,7 +10,6 @@ const Work = () => {
             <div className='work-one'>
                 <h1>Ours work flash here ↓</h1>
             </div>
-      
     <div className='work-two'>
        <div className='seven-two-hours'>
             <img src={"/72_Hours.png"} alt="img" /> <br />
