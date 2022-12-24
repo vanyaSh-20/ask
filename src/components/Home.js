@@ -103,9 +103,9 @@ const Home = () => {
       <div className="home-two">
         <div className="para">
           <p>
-            To tackle the ever-increasing competition in the marketplace, at
-            ASK, we are continually looking for new and more effective ways to
-            increase your brand's market influence.
+          We at JSR Production House are thrilled to have produced a hit movie like 72 Hours, 
+          which was much appreciated by the audience. Other video songs like "Mai Shiv Huin" and "Baby Bas Kar" 
+          have performed exceptionally well on YouTube.  We look forward to more success in the future.
           </p>
           <Link className="para-link" to="/work">
             Discover our work

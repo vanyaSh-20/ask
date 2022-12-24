@@ -10,11 +10,7 @@ const Work = () => {
             <div className='work-one'>
                 <h1>Ours work flash here ↓</h1>
             </div>
-      <div className='work-head'>
-        <p>We at JSR Production House are thrilled to have produced a hit movie like 72 Hours, 
-        which was much appreciated by the audience. Other video songs like "Mai Shiv Huin" and "Baby Bas Kar" 
-        have performed exceptionally well on YouTube.  We look forward to more success in the future.</p>
-      </div>
+      
     <div className='work-two'>
        <div className='seven-two-hours'>
             <img src={"/72_Hours.png"} alt="img" /> <br />
