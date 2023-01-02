@@ -905,6 +905,7 @@
   font-weight: lighter;
   font-size: 22px;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-bar-link-two:hover {
@@ -914,6 +915,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .nav-bar-link-two {
     font-size: 20px;
+
   }
 }
 
